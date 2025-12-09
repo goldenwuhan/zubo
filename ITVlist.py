@@ -250,7 +250,7 @@ async def main():
         datetime.timezone(datetime.timedelta(hours=8))
     ).strftime("%Y-%m-%d %H:%M:%S")
 
-    disclaimer_url = "https://kakaxi-1.asia/LOGO/Disclaimer.mp4"
+    disclaimer_url = "https://gitee.com/goldenwuhan/tv/blob/master/3D.mp4"
     with open("itvlist.txt", 'w', encoding='utf-8') as f:
         f.write(f"更新时间: {beijing_now}（北京时间）\n\n")
         f.write("更新时间,#genre#\n")
