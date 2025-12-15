@@ -444,7 +444,7 @@ def third_stage():
 
     # 写 IPTV.txt（包含更新时间与分类）
     beijing_now = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M:%S")
-    disclaimer_url = "https://gitee.com/goldenwuhan/tv/blob/master/3D.mp4"
+    disclaimer_url = "https://gitee.com/goldenwuhan/tv/raw/master/3D.mp4"
 
     try:
         with open(IPTV_FILE, "w", encoding="utf-8") as f:
